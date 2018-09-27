@@ -1,0 +1,37 @@
+{
+  "name": "vue-suit-markdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:grow-team/vue-suit-markdown.git",
+  "author": "jialinjing <jialinjing@360.cn>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo true",
+    "dev": "webpack-dev-server --open --progress --config build/webpack.dev.js",
+    "build": "webpack --progress --config build/webpack.build.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.6.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.19.1",
+    "webpack-bundle-analyzer": "^3.0.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-md5-hash": "^0.0.6",
+    "webpack-merge": "^4.1.4"
+  }
+}
